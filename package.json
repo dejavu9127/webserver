@@ -1,0 +1,17 @@
+{
+    "name": "webserver",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "dejavu",
+    "contributors": [],
+    "main":"http-server.js",
+    "scripts":{
+        "start":"node http-server.js"
+    },
+    "dependencies": {
+        "http":"latest",
+        "express":"latest",
+        "mqtt":"latest"
+        
+    }
+}
